@@ -19,7 +19,7 @@ local camera = workspace.CurrentCamera
 local CHEAT_KEY = "Test"
 local SAVE_TIME = 6 * 60 * 60
 local KEY_FILE = "forgsoft_key.txt"
-local ICON_ID = "rbxassetid://348476928"
+local ICON_ID = "5326906309"
 
 --==================================================
 -- KEY SYSTEM (6 HOURS)
@@ -85,7 +85,7 @@ if not HasSavedKey() then
 	local title = Instance.new("TextLabel", f)
 	title.Size = UDim2.new(1,0,0,42)
 	title.BackgroundTransparency = 1
-	title.Text = "FORG SOFT ACCESS"
+	title.Text = "FORG SOFT ДОСТУП"
 	title.Font = Enum.Font.FredokaOne
 	title.TextScaled = true
 	title.TextColor3 = Color3.new(1,1,1)
@@ -93,14 +93,14 @@ if not HasSavedKey() then
 	local box = Instance.new("TextBox", f)
 	box.Size = UDim2.new(0.85,0,0,36)
 	box.Position = UDim2.new(0.075,0,0.42,0)
-	box.PlaceholderText = "Enter key"
+	box.PlaceholderText = "Суда ключ"
 	box.Font = Enum.Font.GothamBold
 	box.TextScaled = true
 
 	local btn = Instance.new("TextButton", f)
 	btn.Size = UDim2.new(0.85,0,0,36)
 	btn.Position = UDim2.new(0.075,0,0.68,0)
-	btn.Text = "UNLOCK"
+	btn.Text = "Разблокировал"
 	btn.Font = Enum.Font.GothamBold
 	btn.TextScaled = true
 
@@ -110,7 +110,7 @@ if not HasSavedKey() then
 			kg:Destroy()
 			Intro()
 		else
-			btn.Text = "WRONG KEY"
+			btn.Text = "Неверный ключ"
 		end
 	end)
 
@@ -156,7 +156,7 @@ menuGlow.Transparency = 0.2
 local header = Instance.new("TextLabel", Menu)
 header.Size = UDim2.new(1,0,0,44)
 header.BackgroundTransparency = 1
-header.Text = "🎄 FORG SOFT 🎄"
+header.Text = "🎅 FORG SOFT 🎅"
 header.Font = Enum.Font.FredokaOne
 header.TextScaled = true
 header.TextColor3 = Color3.new(1,1,1)
